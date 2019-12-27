@@ -18,7 +18,7 @@
         //declare addMarker function
         function addMarker(latitude, longitude, title, description, pid)
         {
-            var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'green' });
+            var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'red' });
 
             infobox = new Microsoft.Maps.Infobox(marker.getLocation(), {
                 visible : false
@@ -66,7 +66,7 @@
 <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?branch=release&callback=loadMapScenario' async defer></script>
 
 <div class="jumbotron">
-    <h2>Location Finder</h2>
+    <h2>Location Finder of IBM India Pvt. Ltd</h2>
 </div>
 
 <div class="row">
