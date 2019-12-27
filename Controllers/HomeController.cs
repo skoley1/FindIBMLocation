@@ -19,7 +19,8 @@ namespace locationfinder.Controllers
                 new Locations(3, "IBM OZONE 3","IBM OZONE 3, Pune", 18.4908, 73.9524),
                 new Locations(4, "IBM Hinjawadi","IBM Hinjawadi, Pune", 18.6057, 73.7159),
                 new Locations(5, "IBM Bangalore :: Manyata Embassy Business Park","IBM Bangalore :: Manyata Embassy Business Park, Bangalore", 12.9514, 77.6433),
-                new Locations(5, "IBM Chennai","IBM Chennai, Chennai", 13.023099, 80.176303)
+                new Locations(5, "IBM Chennai","IBM Chennai, Chennai", 13.023099, 80.176303),
+                new Locations(5, "IBM Hyderabad","IBM Hyderabad, Hyderabad", 17.425704, 78.378232)
             };
             model.LocationList = locations;
             return View(model);
